@@ -4,12 +4,15 @@ import { getGifs } from '../helpers/getGifs';
 import { useFetchGifs } from '../hooks/useFetchGifs';
 
 export const GifGrid = ({ category }) => {
+
+
+    //hola hola hola runior
    
 
 
     const { images, isLoading } = useFetchGifs( category );
 
-    // console.log({ images, isLoading });
+    // console.log({ images, isLoading }):
 
     return (
     <>
